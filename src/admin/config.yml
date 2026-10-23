@@ -1,0 +1,127 @@
+# Panel de administración de la web (Decap CMS).
+# Cada vez que se publica algo, se guarda en GitHub y Netlify regenera la web en un par de minutos.
+backend:
+  name: github
+  repo: USUARIO_GITHUB/web-javierhorcajo # ← cambiar por el usuario/repositorio real de GitHub
+  branch: main
+  commit_messages:
+    create: 'Nuevo en {{collection}}: {{slug}}'
+    update: 'Editado en {{collection}}: {{slug}}'
+    delete: 'Eliminado de {{collection}}: {{slug}}'
+    uploadMedia: 'Imagen subida: {{path}}'
+    deleteMedia: 'Imagen eliminada: {{path}}'
+
+# Permite probar el panel en el ordenador con «npx decap-server» (no afecta a la web publicada)
+local_backend: true
+
+locale: es
+site_url: https://www.javierhorcajo.com
+display_url: https://www.javierhorcajo.com
+logo_url: /wp-content/uploads/2018/12/logo_jh_hrz_azul.svg
+
+media_folder: src/uploads/media
+public_folder: /uploads/media
+
+slug:
+  encoding: ascii
+  clean_accents: true
+
+collections:
+  - name: blog
+    label: Blog
+    label_singular: entrada
+    description: Entradas del blog. La dirección de cada entrada se crea a partir del título.
+    folder: src/blog
+    create: true
+    slug: '{{slug}}'
+    summary: '{{title}} — {{date | date("DD/MM/YYYY")}}'
+    sortable_fields: [date, title]
+    preview_path: '{{slug}}/'
+    fields: &entrada
+      - { label: Título, name: title, widget: string }
+      - { label: Fecha de publicación, name: date, widget: datetime }
+      - { label: Imagen principal, name: image, widget: image, required: false, hint: Aparece en la cabecera y en los listados. }
+      - { label: Resumen, name: excerpt, widget: text, hint: Dos o tres frases. Se muestra en el listado y al compartir en redes. }
+      - { label: Texto, name: body, widget: markdown }
+      - { label: Borrador (no publicar todavía), name: borrador, widget: boolean, default: false, required: false }
+
+  - name: noticias
+    label: Noticias
+    label_singular: noticia
+    description: Noticias y novedades (sección «Noticias» del menú).
+    folder: src/noticias
+    create: true
+    slug: '{{slug}}'
+    summary: '{{title}} — {{date | date("DD/MM/YYYY")}}'
+    sortable_fields: [date, title]
+    preview_path: 'noticias/{{slug}}/'
+    fields: *entrada
+
+  - name: articulos
+    label: Artículos científicos
+    label_singular: artículo
+    description: Publicaciones en revistas científicas. Se ordenan solas por año (los nuevos de cada año aparecen primero).
+    folder: src/publicaciones/articulos
+    create: true
+    identifier_field: titulo
+    slug: '{{titulo}}'
+    summary: '{{anio}} · {{titulo}}'
+    sortable_fields: [anio, titulo]
+    fields:
+      - { label: Título, name: titulo, widget: string }
+      - { label: Año, name: anio, widget: number, value_type: int, min: 1990, max: 2100 }
+      - label: Referencia completa (APA)
+        name: referencia
+        widget: markdown
+        modes: [rich_text]
+        buttons: [bold, italic, link]
+        editor_components: []
+        hint: Pon en cursiva el nombre de la revista y el volumen.
+      - { label: Enlace (DOI o web del artículo), name: enlace, widget: string, required: false, hint: 'Ejemplo: https://doi.org/10.1177/...' }
+      - { label: orden, name: orden, widget: hidden, default: 0 }
+
+  - name: congresos
+    label: Congresos y conferencias
+    label_singular: congreso o conferencia
+    description: Trabajos presentados en congresos y conferencias. Se ordenan solos por año.
+    folder: src/publicaciones/congresos
+    create: true
+    identifier_field: titulo
+    slug: '{{titulo}}'
+    summary: '{{anio}} · {{titulo}}'
+    sortable_fields: [anio, titulo]
+    fields:
+      - { label: Título, name: titulo, widget: string }
+      - { label: Año, name: anio, widget: number, value_type: int, min: 1990, max: 2100 }
+      - label: Referencia completa
+        name: referencia
+        widget: markdown
+        modes: [rich_text]
+        buttons: [bold, italic, link]
+        editor_components: []
+        hint: 'Autores (Mes, año). Título. Tipo de trabajo en Congreso. Ciudad (País).'
+      - { label: Enlace (opcional), name: enlace, widget: string, required: false }
+      - { label: orden, name: orden, widget: hidden, default: 0 }
+
+  - name: libros
+    label: Libros y capítulos
+    label_singular: libro o capítulo
+    description: Libros completos y capítulos de libro, con su portada.
+    folder: src/publicaciones/libros
+    create: true
+    identifier_field: titulo
+    slug: '{{titulo}}'
+    summary: '{{anio}} · {{tipo}} · {{titulo}}'
+    sortable_fields: [anio, titulo]
+    fields:
+      - { label: Título del libro, name: titulo, widget: string }
+      - { label: Año, name: anio, widget: number, value_type: int, min: 1990, max: 2100 }
+      - { label: Tipo, name: tipo, widget: select, options: [Libro, Capítulo], default: Capítulo, hint: Los libros completos aparecen arriba, en grande. }
+      - label: Referencia completa
+        name: referencia
+        widget: markdown
+        modes: [rich_text]
+        buttons: [bold, italic, link]
+        editor_components: []
+      - { label: Portada, name: portada, widget: image, required: false }
+      - { label: orden, name: orden, widget: hidden, default: 0 }

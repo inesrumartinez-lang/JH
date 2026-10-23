@@ -1,0 +1,55 @@
+---
+title: "Real Madrid 2020: “En busca del arca perdida”"
+date: 2019-08-26T18:20:10+00:00
+image: "/uploads/2019/08/cr.jpg"
+excerpt: "Esta entrada de blog no pretende ser una reminiscencia nostálgica de un jugador que se fue, sino un análisis psicológico de lo que se fue con él. De lo que el Real Madrid CF aun sigue buscando. Cuando el Real Madrid vendió a Cristiano Ronaldo (CR), ahora parece evidente que vendió algo más que a un jugador."
+---
+Esta entrada de blog no pretende ser una reminiscencia nostálgica de un jugador que se fue, sino un análisis psicológico de lo que se fue con él. De lo que el Real Madrid CF aun sigue buscando. Cuando el Real Madrid vendió a Cristiano Ronaldo (CR), ahora parece evidente que vendió **algo más que a un jugador.** 
+
+Partamos de una hipótesis plausible.
+
+## *Hipótesis 1:* **Cristiano Ronaldo era un líder para sus compañeros.**
+
+CR no solo era el jugador mejor valorado de la plantilla, sino que constituía uno de los referentes, uno de los futbolistas más influyentes dentro y fuera del campo, un modelo a seguir para cada uno de sus compañeros en lo deportivo, a la hora de entrenar y competir, de cuidarse físicamente, de mantener una alta auto-exigencia, de establecer metas cada vez más difíciles (retos) y altos estándares de rendimiento.
+
+[![](/uploads/2019/08/cr.jpg)](/uploads/2019/08/cr.jpg)
+
+Fotograma del gol de chilena de Cristiano Ronaldo como jugador del Real Madrid contra su actual equipo (Juventus F.C.), en los cuartos de final de la Champions League, el 3 de abril de 2018. Fuente: rtve.es
+
+Planteemos una segunda hipótesis que no parece descabellada.
+
+## *Hipótesis 2:* **Cristiano Ronaldo era un jugador fundamental sobre el que se sostenía la cohesión del equipo.**
+
+La cohesión grupal puede entenderse como “la fuerza de la gravedad”: la atracción que ejerce un grupo sobre cada uno de sus individuos; o el cemento que une a cada uno de los miembros como si fuesen los ladrillos del edificio llamado “equipo”. La cohesión se sostiene sobre tres pilares principales: (1) las ***metas*** que se persiguen y/o se consiguen, (2) las ***relaciones interpersonales*** entre los miembros y (3) lo que representa el ***equipo en sí mismo*** (significado, identidad y orgullo por pertenecer a ese equipo). Probablemente, CR contribuía al sostenimiento del segundo pilar y también es probable que contribuyera a enriquecer el tercero de los pilares. Ahora bien, sin ninguna duda, era fundamental para el primero de ellos. CR contribuía significativamente a la **eficacia colectiva** y al **logro efectivo de las metas del grupo;** a la creencia compartida por los jugadores (y también el equipo técnico, la directiva e incluso la afición madridista) de que se podían perseguir y conseguir metas nunca antes alcanzadas. Como así se hizo. En mi opinión, esta fue una de las claves del éxito de las tres Champions League consecutivas que ganaron (y 4 victorias en 5 años): la **cohesión grupal** que se generó en ese conjunto de futbolistas que componían la primera plantilla del Real Madrid.
+
+##  **La cohesión *en relación con* el tipo de liderazgo que ejercía CR fue la clave grupal para lograr los magníficos resultados obtenidos.**
+
+Quizá esto lo supo ver Zinedine Zidane (ZZ), puesto que dicen que, después de ganar la primera de las tres Champions, le dijo al presidente Florentino Pérez: “con estos mismos jugadores, volveremos a ganar.” Y así fue, por dos veces más hasta hoy. Quizá ZZ fuera reticente a hacer algunos fichajes ante la posibilidad de alterar o erosionar la cohesión grupal que se había creado. No sería casual que ZZ valorara eso como un gran patrimonio. Como futbolista, ZZ tuvo un desempeño muy destacado en varios equipos. Ganó una Champions con el Real Madrid y fue Campeón de Europa y del Mundo con la selección francesa. ¿Por qué ZZ valoraba tanto lo que se había creado en ese grupo? Por encima incluso de la posibilidad de traer a más y mejor talento a través de nuevos jugadores. ¿Por qué también se marchó ZZ? ¿Acaso previó que, con la marcha de CR, se iría también la clave *grupal* del éxito colectivo?
+
+Analizar lo que ocurrió después de la marcha de CR resulta muy interesante en términos de psicología del deporte, especialmente en la dimensión grupal. Si se hace una revisión de las declaraciones que han ido haciendo los jugadores del Real Madrid desde entonces, se pueden hacer algunas inferencias. En un primer momento, el cómo se produjo la marcha de CR generó **incertidumbre** y puede que malestar entre sus compañeros. Probablemente, no entendieron su decisión porque todos creían que CR era “uno de los suyos”, a quien apreciaban también personalmente. Habían compartido muchos momentos deportivos y extra-deportivos que les unían también en lo personal y no solo profesionalmente. **Se iba el líder deportivo. Y se iba la persona.** Aun más: les “abandonaba”. Con motivos poderosos o sin ellos, se fue. Entre otras cosas, esto pudo producir una percepción de **adversidad** que disparó un movimiento centrípeto (“hacia adentro”) en defensa de los miembros del equipo (revísese, por ejemplo, el apoyo a Luka Modric en la lucha por el Balón de Oro), generando también una respuesta de **resiliencia** en los jugadores del Real Madrid. Así, en las primeras semanas, esos jugadores mantenían una percepción individual de **alta autoeficacia** que les ayudó a crecerse ante la adversidad, a creer que, incluso sin CR, era posible seguir reinando en el mundo del fútbol. Sumado a su alta **motivación de logro**, muchos de los jugadores del Real Madrid afrontaron esa nueva temporada sin CR como un reto y como una posibilidad de demostrar que habían sido todos ellos, **el equipo en su conjunto** (y no solo un jugador), la clave de los éxitos deportivos logrados. Esa *misión* les unió y les fortaleció *inicialmente*. Creyeron en sí mismos. “Hicieron piña”. “Todos fueron a una”. Pero esa creencia y esa determinación tuvieron que enfrentarse a las evidencias de los resultados que fueron ocurriendo. **Y el peso de la realidad resultó ser excesivo.**
+
+### **Era muy ingenuo pensar que lo que representaba y aportaba CR en ese grupo podría ser reemplazado por otro compañero de la noche a la mañana, sin más.**
+
+Con los resultados negativos, la **eficacia colectiva** se fue resintiendo jornada tras jornada. Con ello, la cohesión grupal también se vio significativamente minada. El mejor indicador de esto: un equipo está cohesionado cuando sus miembros no solo pertenecen a ese equipo, sino que **quieren seguir perteneciendo a él.** Comenzaron los rumores, fundamentados o no, de que algunos jugadores importantes también se planteaban marcharse del Real Madrid. Esto es una consecuencia frecuente en los grupos que pierden su cohesión. Esos jugadores que estaban cohesionados porque juntos podían lograr sus altas metas, con la ausencia de CR y la experiencia directa de tener malos resultados, dejaron de confiar en que ellos pudieran lograrlo juntos. Y si ya no se puede ganar con este grupo lo que se quiere ganar, se deja de sentir la atracción hacia ese grupo, se deja de querer seguir perteneciendo a él. Si un futbolista no puede conseguir lo que quiere como futbolista con unos compañeros, en un grupo concreto, en un equipo determinado; buscará otro equipo en el que obtener esa meta. Y este es el principal problema que se le planteó al Real Madrid: **la falta de liderazgo y, sobre todo, de cohesión grupal**, y las graves consecuencias derivadas de ello.
+
+### Entre otras cosas, llegó la “desmotivación” a algunos de los jugadores, caracterizada por la falta de intensidad y de persistencia en la búsqueda de los objetivos. En un partido se jugaba bien y en otros partidos se jugaba mal. Como si fueran jugadores distintos.
+
+**La vuelta de Zinedine Zidane ha supuesto un aumento en la cohesión grupal,** como manifiesta el hecho de que, a pesar de los malos resultados de la pasada temporada, los jugadores no han querido abandonar el Real Madrid. Y en alguna medida, también ha supuesto el retorno de (una parte del) liderazgo. Pero solo de una parte. Es más, Zidane no es seguramente el líder que necesitan esos jugadores. Puede ser el entrenador que necesitan, pero no el líder. Porque ZZ representa no solo liderazgo, sino también una figura de autoridad y de poder puesto que es quien decidirá quién juega y quién no. *En esta película, ZZ parece ser el Indiana Jones que se ha aventurado de un modo intrépido en busca del arca perdida.* **No obstante, el grupo de jugadores necesita algo más y algo distinto:** alguien que aumente en ellos la percepción de eficacia colectiva como equipo. Necesitan volver a creer fuertemente en sí mismos. Creer en que pueden lograr lo que anhelan.
+
+## **Necesitan volver a creer que ellos (y no otros), en este equipo (y no en otro) pueden volver a lograr su meta deportiva: (volver a) ser el mejor equipo del mundo.**
+
+ZZ necesitará a un jugador, o a varios, que ejerzan ese liderazgo que él no puede desempeñar *desde dentro del grupo de jugadores.* Y el Real Madrid cuenta con una información muy valiosa: **CR demostró qué es lo que funciona como líder en ese grupo.** No se trata de traer a un determinado “galáctico”, o un determinado número de goles… Lo que hay que encontrar es “el arca perdida”. **Lo que hay que reconstruir es “el grupo psicológico”.**
+
+De hecho, a pesar de lo dicho hasta aquí, sería un error centrar el problema y la solución en un solo individuo. **Porque es un problema grupal.** Y la solución se encontrará en las dinámicas *grupales* que se generen dentro del equipo. No fue la marcha de CR *en sí misma* la causa del problema, sino que la causa fue *lo que se marchó con CR.* **Lo que CR significaba para el grupo** es lo que hay que buscar. Su tipo de liderazgo (y no otro) es lo que hay que encontrar.
+
+### **Un liderazgo de tarea que establezca altos estándares de exigencia y rendimiento, fomentando una norma grupal de alta productividad, y que, a su vez, aumente la percepción (creencia) de eficacia colectiva en el equipo.**
+
+Así, el pilar de la cohesión que se dañó con la marcha de CR es lo que hay que reparar.
+
+En la famosa película de Spielberg, *el arca perdida* guarda un gran tesoro (las Tablas de la Ley que Dios le entregó a Moisés), y quien lo posea obtendrá un poder absoluto. En este caso, no son tablas divinas ni otorgará tal poder a nadie. Quizá sean tan solo las leyes mundanas que rigen el funcionamiento psicológico de los grupos y, en concreto, de los equipos deportivos. Y **el tesoro que guarda el arca perdida que busca el Real Madrid se llama liderazgo de tarea, eficacia colectiva, cohesión grupal.** Si se consigue encontrar esto, se comenzará a reconstruir el grupo psicológico.
+
+### Porque el objetivo final no ha de ser otro que, en esencia, reconstruir la identidad colectiva, así como el deseo y el orgullo de pertenecer a *ese* equipo.
+
+Concluyamos planteando una última hipótesis.
+
+## *Hipótesis 3:* **Si el Real Madrid quiere volver a lograr los triunfos de su reciente pasado, tendrá que encontrar el arca perdida en su inmediato futuro.**

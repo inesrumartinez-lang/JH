@@ -1,0 +1,32 @@
+[build]
+  command = "npm run build"
+  publish = "_site"
+
+[build.environment]
+  NODE_VERSION = "22"
+
+# Direcciones antiguas de WordPress que ya no existen
+[[redirects]]
+  from = "/category/*"
+  to = "/blog/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/page/*"
+  to = "/blog/"
+  status = 301
+
+[[redirects]]
+  from = "/wp-admin/*"
+  to = "/admin/"
+  status = 301
+
+[[redirects]]
+  from = "/wp-login.php"
+  to = "/admin/"
+  status = 301
+
+[[redirects]]
+  from = "/feed/*"
+  to = "/blog/"
+  status = 301
