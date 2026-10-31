@@ -2,7 +2,7 @@
 # Cada vez que se publica algo, se guarda en GitHub y Netlify regenera la web en un par de minutos.
 backend:
   name: github
-  repo: USUARIO_GITHUB/web-javierhorcajo # ← cambiar por el usuario/repositorio real de GitHub
+  repo: inesrumartinez-lang/JH
   branch: main
   commit_messages:
     create: 'Nuevo en {{collection}}: {{slug}}'
@@ -11,8 +11,6 @@ backend:
     uploadMedia: 'Imagen subida: {{path}}'
     deleteMedia: 'Imagen eliminada: {{path}}'
 
-# Permite probar el panel en el ordenador con «npx decap-server» (no afecta a la web publicada)
-local_backend: true
 
 locale: es
 site_url: https://www.javierhorcajo.com
