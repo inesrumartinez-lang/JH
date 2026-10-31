@@ -1,0 +1,126 @@
+/* Aspecto del panel parecido al escritorio de WordPress.
+   Decap CMS genera las clases con su nombre de componente (p. ej. "css-xxxx-AppHeader-css"),
+   así que se seleccionan por esa parte fija. Revisar si se actualiza la versión de Decap. */
+:root {
+  --wp-oscuro: #1d2327;
+  --wp-oscuro-2: #2c3338;
+  --wp-texto-menu: #f0f0f1;
+  --wp-azul: #2271b1;
+  --wp-azul-oscuro: #135e96;
+  --wp-azul-claro: #72aee6;
+  --wp-fondo: #f0f0f1;
+  --wp-borde: #c3c4c7;
+  --wp-texto: #3c434a;
+  --wp-rojo: #b32d2e;
+  --wp-fuente: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  --wp-ancho-menu: 190px;
+}
+
+body { background: var(--wp-fondo) !important; color: var(--wp-texto); font-family: var(--wp-fuente); font-size: 13px; }
+#nc-root, #nc-root button, #nc-root input, #nc-root textarea, #nc-root select { font-family: var(--wp-fuente); }
+
+/* ---------- Barra superior negra (como la barra de administración) ---------- */
+header[class*="-AppHeader-css"] {
+  background: var(--wp-oscuro) !important;
+  box-shadow: none !important;
+  border: 0 !important;
+}
+[class*="-AppHeaderContent"] { max-width: none !important; min-width: 0 !important; padding: 0 12px !important; }
+[class*="-AppHeaderNavLink"], [class*="-AppHeaderButton"], [class*="-AppHeaderSiteLink"] {
+  color: var(--wp-texto-menu) !important; background: transparent !important;
+}
+[class*="-AppHeaderNavLink"]:hover, [class*="-AppHeaderButton"]:hover, [class*="-AppHeaderSiteLink"]:hover,
+[class*="-AppHeaderNavLink"].header-link-active { color: var(--wp-azul-claro) !important; }
+[class*="-AppHeaderNavLink"] svg, [class*="-AppHeaderButton"] svg { fill: currentColor; color: currentColor; }
+[class*="-AppHeaderSiteLink"]::before { content: "🏠 "; }
+[class*="-AppHeaderQuickNewButton"] {
+  background: var(--wp-oscuro-2) !important; color: var(--wp-texto-menu) !important; border-radius: 3px !important;
+  box-shadow: none !important;
+}
+[class*="-AppHeaderQuickNewButton"]::after { border-top-color: var(--wp-texto-menu) !important; }
+
+/* ---------- Menú lateral oscuro ---------- */
+[class*="-AppMainContainer"] { max-width: none !important; min-width: 0 !important; margin: 0 !important; }
+[class*="-CollectionContainer"] { margin: 0 !important; }
+aside[class*="-SidebarContainer"] {
+  position: fixed !important; left: 0 !important; bottom: 0 !important; top: 56px !important;
+  width: var(--wp-ancho-menu) !important; max-height: none !important; height: auto !important;
+  margin: 0 !important; padding: 10px 0 !important; border-radius: 0 !important; box-shadow: none !important;
+  background: var(--wp-oscuro) !important; overflow-y: auto;
+}
+[class*="-SidebarHeading"] {
+  color: #a7aaad !important; font-size: 11px !important; font-weight: 600 !important; text-transform: uppercase;
+  letter-spacing: .05em; padding: 8px 14px !important; margin: 0 !important;
+}
+[class*="-SearchContainer"] { margin: 0 10px 10px !important; }
+[class*="-SearchInput"] { background: var(--wp-oscuro-2) !important; color: #fff !important; border-radius: 3px !important; }
+[class*="-SidebarNavList"] { margin: 0 !important; }
+a[class*="-SidebarNavLink"] {
+  color: var(--wp-texto-menu) !important; border: 0 !important; border-radius: 0 !important;
+  padding: 9px 14px !important; font-size: 14px !important; font-weight: 400 !important; margin: 0 !important;
+}
+a[class*="-SidebarNavLink"] svg { color: #a7aaad !important; fill: currentColor; }
+a[class*="-SidebarNavLink"]:hover { background: var(--wp-oscuro-2) !important; color: var(--wp-azul-claro) !important; }
+a[class*="-SidebarNavLink"].sidebar-active { background: var(--wp-azul) !important; color: #fff !important; }
+a[class*="-SidebarNavLink"].sidebar-active svg { color: #fff !important; }
+
+/* ---------- Listados (como la tabla de "Entradas") ---------- */
+main[class*="-CollectionMain"] { margin-left: calc(var(--wp-ancho-menu) + 20px) !important; padding: 20px 20px 40px 0 !important; max-width: 1100px; }
+[class*="-CollectionTopContainer"] { background: transparent !important; box-shadow: none !important; padding: 0 !important; margin-bottom: 8px !important; }
+[class*="-CollectionTopRow"] { justify-content: flex-start !important; gap: 10px; align-items: center !important; }
+h1[class*="-CollectionTopHeading"] { font-size: 23px !important; font-weight: 400 !important; color: var(--wp-oscuro) !important; padding: 0 !important; }
+h1[class*="-CollectionTopHeading"] svg { display: none; }
+a[class*="-CollectionTopNewButton"] {
+  background: #f6f7f7 !important; color: var(--wp-azul) !important; border: 1px solid var(--wp-azul) !important;
+  border-radius: 3px !important; height: auto !important; line-height: 2.15 !important; padding: 0 10px !important;
+  font-size: 13px !important; font-weight: 400 !important; box-shadow: none !important;
+}
+a[class*="-CollectionTopNewButton"]:hover { background: #f0f0f1 !important; color: var(--wp-azul-oscuro) !important; border-color: var(--wp-azul-oscuro) !important; }
+[class*="-CollectionTopDescription"] { color: #646970 !important; font-size: 13px !important; margin-top: 4px !important; }
+[class*="-CollectionControlsContainer"] { margin: 0 0 8px !important; max-width: none !important; }
+
+ul[class*="-CardsGrid"] { display: block !important; margin: 0 !important; background: #fff; border: 1px solid var(--wp-borde); box-shadow: 0 1px 1px rgba(0,0,0,.04); }
+li[class*="-ListCard"] {
+  margin: 0 !important; border-radius: 0 !important; box-shadow: none !important; border: 0 !important;
+  border-bottom: 1px solid #f0f0f1 !important; background: #fff !important;
+  width: auto !important; max-width: none !important;
+}
+li[class*="-ListCard"]:nth-child(odd) { background: #f6f7f7 !important; }
+li[class*="-ListCard"]:hover { background: #f0f6fc !important; }
+a[class*="-ListCardLink"] { padding: 10px 12px !important; }
+h2[class*="-ListCardTitle"] { color: var(--wp-azul) !important; font-size: 14px !important; font-weight: 600 !important; }
+li[class*="-ListCard"]:hover h2[class*="-ListCardTitle"] { color: var(--wp-azul-oscuro) !important; text-decoration: underline; }
+
+/* ---------- Editor (como "Editar entrada") ---------- */
+[class*="-ToolbarContainer"] { background: #fff !important; box-shadow: 0 1px 0 var(--wp-borde) !important; }
+[class*="-BackArrow"], [class*="-BackCollection"] { color: var(--wp-azul) !important; }
+[class*="-PublishedToolbarButton"], [class*="-PublishButton"], [class*="-SaveButton"],
+[class*="-ToolbarDropdown"] [class*="-StyledDropdownButton"] {
+  background: var(--wp-azul) !important; color: #fff !important; border: 1px solid var(--wp-azul) !important;
+  border-radius: 3px !important; font-weight: 400 !important;
+}
+[class*="-PublishedToolbarButton"]:hover, [class*="-ToolbarDropdown"] [class*="-StyledDropdownButton"]:hover { background: var(--wp-azul-oscuro) !important; }
+[class*="-DeleteButton"] { background: transparent !important; color: var(--wp-rojo) !important; text-decoration: underline; border: 0 !important; }
+[class*="-DeleteButton"]:hover { color: #d63638 !important; }
+
+[class*="-ControlPaneContainer"] { background: var(--wp-fondo) !important; }
+[class*="-ControlContainer"] { margin-bottom: 16px !important; }
+[class*="-FieldLabel"] {
+  background: #fff !important; color: var(--wp-oscuro) !important; border: 1px solid var(--wp-borde) !important; border-bottom: 1px solid #f0f0f1 !important;
+  border-radius: 0 !important; text-transform: none !important; letter-spacing: 0 !important;
+  font-size: 14px !important; font-weight: 600 !important; padding: 8px 12px !important;
+}
+[class*="-ControlContainer"] input[type="text"], [class*="-ControlContainer"] input:not([type]), [class*="-ControlContainer"] input[type="number"],
+[class*="-ControlContainer"] input[type="datetime-local"], [class*="-TextControl"], [class*="-DateTimeControl"] {
+  border-color: var(--wp-borde) !important; border-radius: 0 !important;
+}
+[class*="-ControlContainer"]:first-child input { font-size: 1.7em !important; padding: 6px 10px !important; }
+[class*="-ControlContainer"] input:focus, [class*="-ControlContainer"] textarea:focus,
+[class*="-ControlContainer"]:focus-within [class*="-FieldLabel"] { border-color: var(--wp-azul) !important; }
+[class*="-ControlHint"] { color: #646970 !important; font-style: italic; }
+[class*="-EditorControlBar"] { background: #f6f7f7 !important; border-color: var(--wp-borde) !important; }
+[class*="-FileWidgetButton"] { color: var(--wp-azul) !important; border-color: var(--wp-azul) !important; border-radius: 3px !important; }
+[class*="-FileWidgetButtonRemove"] { color: var(--wp-rojo) !important; border-color: var(--wp-rojo) !important; }
+[class*="-PreviewPaneContainer"] { background: #fff !important; }
+[class*="-ControlContainer"] > label[class*="-FieldLabel"], label[class*="-FieldLabel"] { display: block !important; flex: 1 1 auto !important; margin: 0 !important; }
+[class*="-ToolbarContainer"] [class*="-AppHeaderSiteLink"] { color: var(--wp-azul) !important; }

@@ -35,7 +35,7 @@ collections:
     folder: src/blog
     create: true
     slug: '{{slug}}'
-    summary: '{{title}} — {{date | date("DD/MM/YYYY")}}'
+    summary: "{{title}} — {{date | date('DD/MM/YYYY')}}"
     sortable_fields: [date, title]
     preview_path: '{{slug}}/'
     fields: &entrada
@@ -53,7 +53,7 @@ collections:
     folder: src/noticias
     create: true
     slug: '{{slug}}'
-    summary: '{{title}} — {{date | date("DD/MM/YYYY")}}'
+    summary: "{{title}} — {{date | date('DD/MM/YYYY')}}"
     sortable_fields: [date, title]
     preview_path: 'noticias/{{slug}}/'
     fields: *entrada

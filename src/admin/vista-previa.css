@@ -1,0 +1,36 @@
+/* Vista previa del editor con la tipografía y los colores de la web */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,700|Noto+Serif+JP:500,600&display=swap');
+
+body { margin: 0; background: #fff; color: #333; font-family: Montserrat, sans-serif; font-weight: 300; font-size: 16px; line-height: 1.5; }
+a { color: #2475d1; text-decoration: none; }
+strong, b { font-weight: 700; }
+img { max-width: 100%; height: auto; }
+
+.vp-cabecera {
+  position: relative; min-height: 300px; display: flex; align-items: center; justify-content: center;
+  background: #2475d1 center / cover no-repeat; text-align: center; padding: 40px 30px;
+}
+.vp-cabecera::before { content: ""; position: absolute; inset: 0; background: linear-gradient(135deg, rgba(36,117,209,.75), rgba(0,0,0,.55)); }
+.vp-cabecera h1 {
+  position: relative; margin: 0; color: #fff; font-family: "Noto Serif JP", serif; font-weight: 500;
+  font-size: 44px; line-height: 1.15; text-shadow: 0 0 10px rgba(0,0,0,.3);
+}
+.vp-cuerpo { max-width: 760px; margin: 0 auto; padding: 30px 30px 60px; }
+.vp-fecha { font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 14px; color: #7a7a7a; margin-bottom: 20px; }
+.vp-cuerpo h2, .vp-cuerpo h3, .vp-cuerpo h4 { font-weight: 300; color: #333; line-height: 1.2; }
+.vp-cuerpo h2 { font-size: 30px; }
+.vp-borrador { display: inline-block; background: #dba617; color: #fff; font-size: 12px; font-weight: 700; padding: 2px 8px; margin-bottom: 12px; }
+
+.vp-publicacion { max-width: 900px; margin: 0 auto; padding: 50px 30px; }
+.vp-anio { font-family: "Noto Serif JP", serif; font-size: 34px; font-weight: 600; color: #000; padding-bottom: 14px; border-bottom: 1px solid #999; margin-bottom: 30px; }
+.vp-item { display: flex; gap: 30px; align-items: flex-start; }
+.vp-item-texto { flex: 1; }
+.vp-titulo-pub { font-family: "Noto Serif JP", serif; font-size: 20px; font-weight: 500; color: #2475d1; line-height: 1.4; margin: 0 0 8px; }
+.vp-referencia { font-size: 13px; color: #7a7a7a; }
+.vp-referencia p { margin: 0; }
+.vp-enlace { display: inline-block; background: #2475d1; color: #fff; width: 28px; height: 28px; text-align: center; line-height: 28px; font-weight: 700; }
+.vp-portada { width: 220px; flex: none; box-shadow: 0 10px 30px rgba(0,0,0,.2); }
+.vp-libro { background: #2475d1; color: #fff; padding: 40px; }
+.vp-libro .vp-titulo-pub { color: #fff; font-size: 34px; }
+.vp-libro .vp-referencia { color: #fff; }
+.vp-tipo { font-size: 11px; letter-spacing: .3em; font-weight: 700; margin-bottom: 10px; }
