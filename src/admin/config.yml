@@ -12,6 +12,9 @@ backend:
     deleteMedia: 'Imagen eliminada: {{path}}'
 
 
+# Permite probar el panel en el ordenador con «npm run admin» (solo actúa en localhost)
+local_backend: true
+
 locale: es
 site_url: https://www.javierhorcajo.com
 display_url: https://www.javierhorcajo.com
